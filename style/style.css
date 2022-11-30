@@ -4,6 +4,7 @@
     padding:0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 /*----------------Root----------------------------------*/
 :root {
     --DarkGreen: hsl(150, 20%, 25%,1);
@@ -72,3 +73,43 @@
 h1 {
   font-family: 'montserrat_alternatesbold';  
 }
+=======
+footer{
+    background-color:#344e41;
+    padding-top: 50px;
+}
+.fo{
+    
+    
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.logo-fo>img{
+    width: 100px;
+}
+.qui>img{
+    width: 50px;
+}
+.marc>ul>li>img{
+    width: 60px;
+}
+.me-fo>ul{
+    list-style-type: none;
+    
+
+}
+.qui{
+
+}
+.marc>ul{
+    display: flex;
+   list-style-type: none;
+   
+}
+.fin{
+    padding-top: 50px;
+    padding-bottom: 30px;
+   text-align: center;
+   
+}
+>>>>>>> 16d122ab771b5497ef88b2b18f3d2fe221791f71
