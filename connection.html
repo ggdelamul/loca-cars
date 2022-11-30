@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <script src="fa/fa/js/all.js" crossorigin="anonymous"></script>
+    <script src="../fa/fa/js/all.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connection</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
-    <div class="container">
-      <!--Nav-->
+    <!--Nav-->
+    <div class="container-connection">
       <main>
           <div class="connect-title">
-              <h2>S'enregistrer et créer un compte gratuit</h2>
+              <h2>Inscrivez-vous et gagnez du temps</h2>
+              <p>Créez votre compte et réservez votre voiture en quelques secondes </p>
           </div>
           <form action="" class="form-container">
+            <div clas="checkbox">
+                <input type="checkbox">
+                <label for="">Monsieur</label>
+                <input type="checkbox">
+                <label for="">Madame</label>
+            </div>
             <div class="name">
                 <label for="">Nom</label>
                 <input type="text">
@@ -36,11 +43,17 @@
                 <label for="">Mot de passe</label>
                 <input type="password">
             </div>
-            <button type="submit">Créer votre compte</button>
+            <button type="submit">Créer un compte</button>
+            <div class="log-in">
+                <a href="">Déjà inscrit ?</a><p>Se connecter</p>
+            </div>
+            <div class="log-in">
+                <a href="">Conducteur additionnel</a><p>Se connecter</p>
+            </div>
           </form>
-      </main> 
-      <!--footer--> 
+      </main>  
     </div>
-    <script src="app.js"></script>
+    <!--footer-->
+    <script src="../app.js"></script>
 </body>
 </html>
