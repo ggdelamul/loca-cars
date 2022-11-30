@@ -10,8 +10,65 @@
     --mediumGreen: hsl(131, 22%, 29%,1);
     --green:hsl(123, 21%, 42%,1);
     --lightGreen:hsl(82, 20%, 62%,1);
+    --bcg:hsl(46, 15%, 83%,1);
     --h1Title:22px;
     --h2Title:18px;
     --h3Title:16px;
     --p:14px;
+}
+/*---------------------Font-----------------------------*/
+@font-face {
+    font-family: 'arapeyregular';
+    src: url('../font/Arapey_web/arapey-regular-webfont.woff2') format('woff2'),
+         url('../font/Arapey_web/arapey-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'arapeyitalic';
+    src: url('../font/Arapey_web/arapey-italic-webfont.woff2') format('woff2'),
+         url('../font/Arapey_web/arapey-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserrat_alternatesbold';
+    src: url('../font/Montserrat_alternate_web/montserratalternates-bold-webfont.woff2') format('woff2'),
+         url('../font/Montserrat_alternate_web/montserratalternates-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserrat_alternatesitalic';
+    src: url('../font/Montserrat_alternate_web/montserratalternates-italic-webfont.woff2') format('woff2'),
+         url('../font/Montserrat_alternate_web/montserratalternates-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserrat_alternateslight';
+    src: url('../font/Montserrat_alternate_web/montserratalternates-light-webfont.woff2') format('woff2'),
+         url('../font/Montserrat_alternate_web/montserratalternates-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserrat_alternatesmedium';
+    src: url('../font/Montserrat_alternate_web/montserratalternates-medium-webfont.woff2') format('woff2'),
+         url('../font/Montserrat_alternate_web/montserratalternates-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserrat_alternatesregular';
+    src: url('../font/Montserrat_alternate_web/montserratalternates-regular-webfont.woff2') format('woff2'),
+         url('../font/Montserrat_alternate_web/montserratalternates-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+  font-family: 'montserrat_alternatesbold';  
 }
