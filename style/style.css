@@ -1,5 +1,17 @@
+/*---------------Reset Css----------------------------*/
 *, ::before, ::after{
     margin:0;
     padding:0;
     box-sizing: border-box;
+}
+/*----------------Root----------------------------------*/
+:root {
+    --DarkGreen: hsl(150, 20%, 25%,1);
+    --mediumGreen: hsl(131, 22%, 29%,1);
+    --green:hsl(123, 21%, 42%,1);
+    --lightGreen:hsl(82, 20%, 62%,1);
+    --h1Title:22px;
+    --h2Title:18px;
+    --h3Title:16px;
+    --p:14px;
 }
