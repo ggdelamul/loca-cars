@@ -1,18 +1,1 @@
-/*, ::before, ::after{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}*/
-article{
-    margin:0;
-    padding:0;
-     display: grid;
-   align-content: center;
-  
-    background: #f8f8f8;
-    
-}
-.container-dispo{
-   
 
-}
