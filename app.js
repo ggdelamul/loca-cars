@@ -28,3 +28,11 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 } 
+const iconeBurger = document.querySelector(".icone-burger");
+console.log(iconeBurger);
+const navBar = document.querySelector(".nav-bar");
+console.log(navBar);
+iconeBurger.addEventListener("click", function(){
+    console.log("icone cliqué");
+    navBar.classList.toggle("display-nav-bar");
+})
