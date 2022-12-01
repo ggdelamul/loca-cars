@@ -101,6 +101,7 @@ h1 {
     display:flex;
     justify-content: flex-end;
     width:45px;
+    cursor: pointer;
 }
 .icone-burger svg {
     width:100%;
