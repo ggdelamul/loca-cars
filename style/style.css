@@ -72,3 +72,51 @@
 h1 {
   font-family: 'montserrat_alternatesbold';  
 }
+/*---------------------------------------------------------CSS-NAV-------------------------------------------------------------------------------*/
+.nav-container{
+   background-color: var(--bcg); 
+   display:flex;
+   flex-direction: column;
+   align-items: flex-end;
+   padding:10px;
+}
+.icone-burger{
+    display:flex;
+    justify-content: flex-end;
+}
+.icone-burger svg {
+    width:15%;
+    height:15%;
+}
+.icone-burger svg>path{
+    fill:var(--DarkGreen);
+}
+.nav-bar {
+    align-self: center;
+}
+.nav-bar ul {
+    list-style-type: none;
+}
+.nav-bar ul li {
+    padding: 10px 0;
+}
+.nav-bar ul .deroulant>ul {
+    margin: 0px 50px;
+    background-color: var(--bcg);
+    padding: 10px;
+}
+.nav-bar ul li .sous{
+    display:none;
+}
+.nav-bar ul li:hover .sous {
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:150px;
+}
+.nav-bar ul a {
+    text-decoration:none;
+    color: var(--DarkGreen);
+    font-size: var(--h2Title);
+}
