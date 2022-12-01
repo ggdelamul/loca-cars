@@ -176,6 +176,10 @@ h1 {
     display:inline-block;
     text-decoration: none;
 }
+.search-container{
+    display:none;
+}
+/*------------------------nav desktop----------------------------------*/
 /* css de marqueinfo audi */
 .info{
     justify-content: center;
