@@ -349,3 +349,104 @@ footer{
             width: 40px;
         }
 }
+/*css connection  forma ordi*/
+.container-connection{
+    margin: 0%;
+    background-color: #a3b18a;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    padding: 5%;
+    }
+    .connect-title{
+    text-align: center;
+    color: hsl(123, 21%, 42%,1);
+    padding-bottom: 50px;
+    background-color:#dad7cd;
+    
+    }
+    .form-container{
+    display: grid;
+    padding: 5%;
+    color: #3a5a40;
+    grid-template-columns: 60% 40%;
+    background-color: #dad7cd;
+    
+    }
+    .conne{
+        display: grid;
+        padding-right: 10%;
+        display: block;
+    }
+    .conne1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: solid 1px;
+        background-color: #588157;
+        padding-top: 10%;
+        padding-right: 10%;
+        border-radius: 5px;
+        color: #3a5a40;
+       
+    }
+    .checkbox{
+       display:flex;  
+       padding-bottom: 5%; 
+       color: #dad7cd;
+    
+    }
+    label{
+        color: #dad7cd;
+    }
+    .name{
+        padding: 2%;
+    }
+    .prenom{
+        padding: 2%;
+    }
+    .telephone{
+        padding: 2%;
+    }
+    .email{
+        padding: 2%;
+    }
+    .password{
+        padding: 2%;
+    }
+    button{
+        padding: 2%;
+    }
+    .log-in{
+        padding: 2%;
+        color: #dad7cd;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: #dad7cd;
+    }
+    
+    
+     /*css connection  forma mobile*/
+        .container-connection{
+      width: 100%;
+        }
+        .connect-title{
+            width: 100%;
+    
+        }
+        .connect-title>h2{
+            font-size: 20px;
+    
+        }
+      .conne1{
+          width: 100%;
+      }
+      .form-container{
+          display: block;
+      }
+    
+    
+    
