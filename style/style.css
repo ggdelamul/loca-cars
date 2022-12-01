@@ -244,6 +244,12 @@ h1 {
 .log .btn:hover {
     background-color: var(--DarkGreen);
 }
+
+.search-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .log .btn a {
     color:white;
     font-size: var(--h2Title);
@@ -254,6 +260,7 @@ h1 {
     position: relative;
     display: flex;
     justify-content: center;
+    background: var(--green);
   }
 
   .mySlides {
@@ -364,9 +371,31 @@ align-items: center;
     grid-template-columns: 40% 40%;
     padding-left: 10%;
 }
+img{
+    width: 35%;
+}
+.customers{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
 
+.offre-container,
+.card-container,
+.card-container,
+.pictures{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--bcg)
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* css marqueinfo forma mobile*/
-
 @media  screen and (max-width:768px) {
     .au>img{
         width: 200px;
