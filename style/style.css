@@ -72,7 +72,6 @@
 h1 {
   font-family: 'montserrat_alternatesbold';  
 }
-<<<<<<< HEAD
 /*---------------------------------------------------------CSS-NAV-------------------------------------------------------------------------------*/
 .nav-container{
    background-color: var(--bcg); 
@@ -245,7 +244,6 @@ align-items: center;
         padding-top: 30%;
     }
 }
-=======
 /* css de footer*/
 footer{
     background-color:#344e41;
@@ -358,4 +356,3 @@ footer{
             width: 40px;
         }
 }
->>>>>>> e250c3ae6623a08d7d594b8a5308b02020c2df41
