@@ -328,6 +328,70 @@ h1 {
   .demo:hover {
     opacity: 1;
   }
+
+/* css de marqueinfo audi */
+.info{
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+     width: 100%;
+     background-color: #a3b18a;
+  padding-bottom: 10px;
+  color: #3a5a40;
+}
+.image{
+    background-image: url(../img/road-carlili.png);
+    background-color: #a3b18a;
+    padding-top: 20%;
+    padding-bottom: 10px;
+    font-size: 22px;
+    color: #a3b18a ;   
+}
+.au>img{
+    width: 600px;
+    justify-content: center;
+align-items: center;
+  
+}
+.vehicule{
+    border-radius: 20px;
+    margin: 20px 0px;
+    background-color: #dad7cd;
+    justify-content: center;
+   padding-bottom: 10px;
+    
+    display: grid;
+    grid-template-columns: 40% 40%;
+    padding-left: 10%;
+}
+
+/* css marqueinfo forma mobile*/
+
+@media  screen and (max-width:768px) {
+    .au>img{
+        width: 200px;
+    }
+    .container-info{
+        display: grid;
+
+    }
+    .info{
+        display: grid;
+        display: block;
+    }
+    .vehicule{
+        display: grid;
+        display: block;
+    }
+    .au>img{
+        justify-content: center;
+    }
+    .image{
+        font-size: 14px;
+        padding-left: 10px;
+        padding-top: 30%;
+    }
+}
 /* css de footer*/
 footer{
     background-color:#344e41;
