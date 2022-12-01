@@ -180,6 +180,40 @@ h1 {
     display:none;
 }
 /*------------------------nav desktop----------------------------------*/
+@media screen and (min-width:769px) {
+    .header-nav .icone-burger{
+        display:none;
+    }
+    .search-container{
+        display:flex;
+    }
+    .nav-container{
+        flex-direction:row;
+        justify-content: space-around;
+    }
+    .nav-bar {
+        display:flex;
+        width :60%;
+    }
+    .header-nav {
+        width:20%;
+    }
+    .nav-bar ul{
+        display:flex;
+        justify-content: center;
+    }
+    .nav-bar ul a {
+        display:inline-block;
+        padding-right :45px ;
+    }
+}
+
+
+
+
+
+
+
 /* css de marqueinfo audi */
 .info{
     justify-content: center;
