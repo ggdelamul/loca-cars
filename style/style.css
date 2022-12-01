@@ -72,3 +72,120 @@
 h1 {
   font-family: 'montserrat_alternatesbold';  
 }
+/* css de footer*/
+footer{
+    background-color:#344e41;
+    padding-top: 50px;
+    
+}
+.fo{
+    
+    grid-template-columns: 25% 25% 25% 25%;
+    display: grid;
+ 
+}
+.logo-fo>img{
+    width: 100px;
+    padding-left: 30px;
+}
+.qui>img{
+    width: 50px;
+}
+.marc>ul>li>img{
+    width: 60px;
+    justify-content: center;
+    text-align: center;
+}
+.me-fo>ul{
+    list-style-type: none;
+   line-height: 30px;
+
+}
+.qui{
+    line-height: 30px;
+    
+   
+}
+.marc>ul{
+    display: flex;
+   list-style-type: none;
+ text-align: center;   
+   
+}
+.fin{
+    padding-top: 50px;
+    padding-bottom: 30px;
+   text-align: center;
+   line-height: 30px;
+}
+.aud>img{
+    width: 60px;
+    justify-content: center;
+}
+.aud1>img{
+    width: 60px;
+    justify-content: center;
+}
+.aud2>img{
+    width: 60px;
+    justify-content: center;
+}
+.aud3>img{
+    width: 80px;
+    justify-content: center;
+}
+.marc>h3{
+    padding-bottom: 10px;
+}
+
+@media  screen and (max-width:768px) {
+    /* css footer pour forma mobile*/
+    footer{
+        
+        margin: 0%;
+        display: block;
+        background-color:#344e41;
+      
+       
+           }
+         
+           .qui{
+               display: grid;
+               padding-left: 30px;
+               padding-bottom: 20px;
+           }
+           .marc{
+               display: grid;
+              padding-left: 30px;
+               
+               padding-top: 10px;
+           }
+           .me-fo{
+               display: grid;
+              padding-left: 30px;
+               
+           }
+        .fo{
+            display: block;
+            
+            line-height: 30px;
+           
+         
+        }
+        .logo-fo{
+
+        }
+        .me-fo , .qui{
+            display: grid;
+            grid-template-rows: 20% 40%;
+        }
+        .bo{
+            display: grid;
+            grid-template-columns:  40% 25% 25%;
+        }
+        .qui>img{
+            width: 40px;
+        }
+        
+
+}
