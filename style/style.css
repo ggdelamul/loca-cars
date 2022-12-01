@@ -68,7 +68,10 @@
     font-weight: normal;
     font-style: normal;
 }
-
+body,html{
+    height: 100%;
+    background: var(--bcg);
+}
 h1 {
   font-family: 'montserrat_alternatesbold';  
 }
@@ -76,8 +79,35 @@ h1 {
     position: relative;
     display: flex;
     justify-content: center;
+    background: var(--mediumGreen);
   }
-
+  .caption-container{
+    background: var(--mediumGreen);
+  }
+  .customers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      
+  }
+  img{
+    width: 30%;
+  }
+  .offre-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pictures{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .mySlides {
     display: none;
     margin-left: 20%;
@@ -103,7 +133,6 @@ h1 {
     font-size: 20px;
     border-radius: 0 3px 3px 0;
     user-select: none;
-    -webkit-user-select: none;
   }
   
   .next {
