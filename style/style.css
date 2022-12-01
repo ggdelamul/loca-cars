@@ -123,6 +123,9 @@ h1 {
 .nav-bar ul li {
     padding: 10px 0;
 }
+.nav-bar ul li a {
+    display:inline-block;
+}
 .nav-bar ul .deroulant>ul {
     margin: 0px 50px;
     background-color: var(--bcg);
@@ -171,7 +174,6 @@ h1 {
     color:white;
     font-size: var(--h2Title);
     display:inline-block;
-    padding:25%;
     text-decoration: none;
 }
 /* css de marqueinfo audi */
@@ -303,52 +305,7 @@ footer{
     padding-bottom: 10px;
 }
 
-@media  screen and (max-width:768px) {
-    /* css footer pour forma mobile*/
-    footer{
-        
-        margin: 0%;
-        display: block;
-        background-color:#344e41;
-      
-       
-           }
-         
-           .qui{
-               display: grid;
-               padding-left: 30px;
-               padding-bottom: 20px;
-           }
-           .marc{
-               display: grid;
-              padding-left: 30px;
-               
-               padding-top: 10px;
-           }
-           .me-fo{
-               display: grid;
-              padding-left: 30px;
-               
-           }
-        .fo{
-            display: block;
-            
-            line-height: 30px;
-           
-         
-        }
-        .me-fo , .qui{
-            display: grid;
-            grid-template-rows: 20% 40%;
-        }
-        .bo{
-            display: grid;
-            grid-template-columns:  40% 25% 25%;
-        }
-        .qui>img{
-            width: 40px;
-        }
-}
+
 /*css connection  forma ordi*/
 .container-connection{
     margin: 0%;
@@ -388,14 +345,12 @@ footer{
         padding-top: 10%;
         padding-right: 10%;
         border-radius: 5px;
-        color: #3a5a40;
-       
+        color: #3a5a40;  
     }
     .checkbox{
        display:flex;  
        padding-bottom: 5%; 
        color: #dad7cd;
-    
     }
     label{
         color: #dad7cd;
@@ -427,26 +382,59 @@ footer{
         text-decoration: none;
         color: #dad7cd;
     }
-    
-    
-     /*css connection  forma mobile*/
-        .container-connection{
-      width: 100%;
-        }
-        .connect-title{
-            width: 100%;
-    
-        }
-        .connect-title>h2{
-            font-size: 20px;
-    
-        }
-      .conne1{
-          width: 100%;
-      }
-      .form-container{
-          display: block;
-      }
-    
-    
-    
+    @media  screen and (max-width:768px) {
+        /* css footer pour forma mobile*/
+        footer{
+            margin: 0%;
+            display: block;
+            background-color:#344e41;
+               }
+             
+               .qui{
+                   display: grid;
+                   padding-left: 30px;
+                   padding-bottom: 20px;
+               }
+               .marc{
+                   display: grid;
+                  padding-left: 30px;
+                   
+                   padding-top: 10px;
+               }
+               .me-fo{
+                   display: grid;
+                  padding-left: 30px;   
+               }
+            .fo{
+                display: block;
+                line-height: 30px;
+            }
+            .me-fo , .qui{
+                display: grid;
+                grid-template-rows: 20% 40%;
+            }
+            .bo{
+                display: grid;
+                grid-template-columns:  40% 25% 25%;
+            }
+            .qui>img{
+                width: 40px;
+            }
+            .container-connection{
+                width: 100%;
+                  }
+                  .connect-title{
+                      width: 100%;
+              
+                  }
+                  .connect-title>h2{
+                      font-size: 20px;
+              
+                  }
+                .conne1{
+                    width: 100%;
+                }
+                .form-container{
+                    display: block;
+                }
+    }
