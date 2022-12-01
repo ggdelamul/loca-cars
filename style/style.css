@@ -186,23 +186,16 @@ h1 {
 }
 .image{
     background-image: url(../img/road-carlili.png);
-    
     background-color: #a3b18a;
     padding-top: 20%;
-padding-bottom: 10px;
-font-size: 22px;
-    color: #a3b18a ;
-    
+    padding-bottom: 10px;
+    font-size: 22px;
+    color: #a3b18a ;   
 }
-
 .au>img{
     width: 600px;
     justify-content: center;
 align-items: center;
-  
-}
-.au>img:hover{
-    width: 610px;
   
 }
 .vehicule{
