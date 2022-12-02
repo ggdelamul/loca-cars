@@ -630,6 +630,8 @@ footer>.fo>.me-fo>h3{
 .container-accueil{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .bloc1{
     display: flex;
@@ -640,6 +642,8 @@ footer>.fo>.me-fo>h3{
     position: relative;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding-bottom:10px;
 }
 .title-gamme{
     position: absolute;
