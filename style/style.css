@@ -674,4 +674,7 @@ footer>.fo>.me-fo>h3{
     flex-direction: column;
     background: var(--bcg);
 }
+.title-gamme{
+    visibility: hidden;
+}
 }
