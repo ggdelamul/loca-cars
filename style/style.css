@@ -307,14 +307,7 @@
     background-color: rgba(0, 0, 0, 0.8);
   }
   
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
+ 
   
   .caption-container {
     text-align: center;
@@ -377,253 +370,38 @@
     grid-template-columns: 40% 40%;
     padding-left: 10%;
   }
-  img{
-    width: 35%;
-  }
   .customers{
     display: flex;
     align-content: center;
     justify-content: center;
   }
   
-  .offre-container,
   .card-container,
-  .card-container,
-  .pictures{
+  .card-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     background: var(--bcg)
   }
-  
-  .card-container{
+  .container-accueil{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-  }
-  /* css marqueinfo forma mobile*/
-  @media  screen and (max-width:768px) {
-    .au>img{
-        width: 200px;
-    }
-    .container-info{
-        display: grid;
-  
-    }
-    .info{
-        display: grid;
-        display: block;
-    }
-    .vehicule{
-        display: grid;
-        display: block;
-    }
-    .au>img{
-        justify-content: center;
-    }
-    .image{
-        font-size: 14px;
-        padding-left: 10px;
-        padding-top: 30%;
-    }
-  }
-  /* css de footer*/
-  footer{
-    background-color:#344e41;
-    padding-top: 50px;
-    
-  }
-  .fo{
-    
-    grid-template-columns: 25% 25% 25% 25%;
-    display: grid;
-  
-  }
-  .logo-fo>img{
-    width: 100px;
-    padding-left: 30px;
-  }
-  .qui>img{
-    width: 50px;
-  }
-  .marc>ul>li>img{
-    width: 60px;
-    justify-content: center;
-    text-align: center;
-  }
-  .me-fo>ul{
-    list-style-type: none;
-   line-height: 30px;
-  
-  }
-  .qui{
-    line-height: 30px;
-    
-   
-  }
-  .marc>ul{
-    display: flex;
-   list-style-type: none;
-  text-align: center;   
-   
-  }
-  .fin{
-    padding-top: 50px;
-    padding-bottom: 30px;
-   text-align: center;
-   line-height: 30px;
-  }
-  .aud>img{
-    width: 60px;
-    justify-content: center;
-  }
-  .aud1>img{
-    width: 60px;
-    justify-content: center;
-  }
-  .aud2>img{
-    width: 60px;
-    justify-content: center;
-  }
-  .aud3>img{
-    width: 80px;
-    justify-content: center;
-  }
-  .marc>h3{
-    padding-bottom: 10px;
+    background: var(--bcg)
   }
   
+ 
+  /*  */
+  .container-accueil img{
+     object-fit: cover;
+     aspect-ratio: 3/2;
+     width: 40%;
+ }
+ #minicarte{
+     aspect-ratio: 1;
+     object-fit:fill;
+ }
   
-  /*css connection  forma ordi*/
-  .container-connection{
-    margin: 0%;
-    background-color: #a3b18a;
-    width: 100%;
-    height: 100%;
-    display: grid;
-    justify-content: center;
-    padding: 5%;
-    }
-    .connect-title{
-    text-align: center;
-    color: hsl(123, 21%, 42%,1);
-    padding-bottom: 50px;
-    background-color:#dad7cd;
-    
-    }
-    .form-container{
-    display: grid;
-    padding: 5%;
-    color: #3a5a40;
-    grid-template-columns: 60% 40%;
-    background-color: #dad7cd;
-    
-    }
-    .conne{
-        display: grid;
-        padding-right: 10%;
-        display: block;
-    }
-    .conne1{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border: solid 1px;
-        background-color: #588157;
-        padding-top: 10%;
-        padding-right: 10%;
-        border-radius: 5px;
-        color: #3a5a40;  
-    }
-    .checkbox{
-       display:flex;  
-       padding-bottom: 5%; 
-       color: #dad7cd;
-    }
-    label{
-        color: #dad7cd;
-    }
-    .name{
-        padding: 2%;
-    }
-    .prenom{
-        padding: 2%;
-    }
-    .telephone{
-        padding: 2%;
-    }
-    .email{
-        padding: 2%;
-    }
-    .password{
-        padding: 2%;
-    }
-    button{
-        padding: 2%;
-    }
-    .log-in{
-        padding: 2%;
-        color: #dad7cd;
-        text-align: center;
-    }
-    a{
-        text-decoration: none;
-        color: #dad7cd;
-    }
-    @media  screen and (max-width:768px) {
-        /* css footer pour forma mobile*/
-        footer{
-            margin: 0%;
-            display: block;
-            background-color:#344e41;
-               }
-             
-               .qui{
-                   display: grid;
-                   padding-left: 30px;
-                   padding-bottom: 20px;
-               }
-               .marc{
-                   display: grid;
-                  padding-left: 30px;
-                   
-                   padding-top: 10px;
-               }
-               .me-fo{
-                   display: grid;
-                  padding-left: 30px;   
-               }
-            .fo{
-                display: block;
-                line-height: 30px;
-            }
-            .me-fo , .qui{
-                display: grid;
-                grid-template-rows: 20% 40%;
-            }
-            .bo{
-                display: grid;
-                grid-template-columns:  40% 25% 25%;
-            }
-            .qui>img{
-                width: 40px;
-            }
-            .container-connection{
-                width: 100%;
-                  }
-                  .connect-title{
-                      width: 100%;
-              
-                  }
-                  .connect-title>h2{
-                      font-size: 20px;
-              
-                  }
-                .conne1{
-                    width: 100%;
-                }
-                .form-container{
-                    display: block;
-                }
-    }
+  
+  
   
