@@ -633,6 +633,7 @@ footer>.fo>.me-fo>h3{
     display:flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px 0px;
 }
 .container-disponibilite .title {
     padding : 15px 0px;
@@ -643,7 +644,7 @@ footer>.fo>.me-fo>h3{
 .container-disponibilite .paragraphe {
     color:var(--DarkGreen); 
     text-align: justify;
-    padding:15px;   
+    padding: 30px;   
 }
 .calendar {
     display: flex;
@@ -679,9 +680,10 @@ footer>.fo>.me-fo>h3{
     display:flex;
     flex-direction: column;
     align-items: center;
+    color:white;
 }
 .btn-container button {
-    width:100px;
+    width:200px;
     height:30px;
     display:flex;
     justify-content: center;
@@ -691,4 +693,54 @@ footer>.fo>.me-fo>h3{
     padding: 20px 0;
     transition:0.4s;
     border:none;
+    color:white;
+    margin :15px 0;
+}
+.btn-container button:hover {
+    background-color: var(--DarkGreen);
+}
+.btn-container p {
+    margin :15px 0;
+    color: var(--green);
+    font-size: var(--p);
+    font-family:'montserrat_alternatesregular' ;
+}
+.btn-container p:nth-child(3){
+    font-size: var(--h2Title);
+}
+@media screen and (min-width:769px){
+    .container-disponibilite{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .title{
+        width:100%;
+        display:flex;
+        justify-content: center;
+    }
+    .paragraphe {
+        width:100%;
+        display:flex;
+        justify-content: center;
+    }
+    .calendar{
+        width:50%;
+        display:flex;
+        justify-content: center;
+    }
+    .calendar iframe{
+        width:500px;
+        height:500px;
+    }
+    .selected-date{
+        width:50%;
+        display:flex;
+        align-items: flex-start;
+    }
+    .start-rent, .end-rent{
+        margin: 0 45px;
+    }
+    .selected-date h3 {
+        margin: 0 35px;
+    }
 }
