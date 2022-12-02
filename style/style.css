@@ -211,7 +211,42 @@ align-items: center;
     grid-template-columns: 40% 40%;
     padding-left: 10%;
 }
+/*css gamme giniral*/
+.container-gammeginiral{
+    background-color:#dad7cd;
+    width: 100%;
+    margin: 0%; 
+display: block;
+text-align: center;
+}
+.model-gamme{
+    background-color: #dad7cd;
+    
 
+  
+    color: hsl(150, 20%, 25%,1);
+    
+}
+.debu{
+    color:hsl(150, 20%, 25%,1);
+}
+
+.caroussel-image>a>img{
+    width: 800px;
+ 
+}
+.caroussel-image2>a>img{
+    width: 800px;
+
+}
+.caroussel-image3>a>img{
+    width: 800px;
+    
+}
+.contenu_carou_auto>h2{
+    padding-top: 10%;
+    
+}
 /* css marqueinfo forma mobile*/
 
 @media  screen and (max-width:768px) {
@@ -237,6 +272,25 @@ align-items: center;
         font-size: 14px;
         padding-left: 10px;
         padding-top: 30%;
+    }
+    /*mcss page gamme general*/
+    .container-gammeginiral{
+        width: 100%;
+    }
+    .model-gamme{
+        width: 100%;
+    }
+    .caroussel-image>a>img{
+        width: 300px;
+     
+    }
+    .caroussel-image2>a>img{
+        width: 300px;
+    
+    }
+    .caroussel-image3>a>img{
+        width: 300px;
+        
     }
 }
 /* css de footer*/
