@@ -250,6 +250,20 @@ align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.butt>a>button{
+    border-radius: 10px;
+    color: #a3b18a;
+    background-color:hsl(123, 21%, 42%,1);
+    width: 60%;
+    margin-top: 10px;
+    justify-content: center;
+    border:hsl(123, 21%, 42%,1);
+    transition:0.5s;
+}
+.butt>a>button:hover{
+    color:hsl(46, 15%, 83%,1);
+    background-color: hsl(150, 20%, 25%,1);
+}
 
 /* css marqueinfo forma mobile*/
 
@@ -431,8 +445,12 @@ footer{
         text-align: center;
     }
     a{
-        text-decoration: none;
-        color: #dad7cd;
+        text-decoration: hsl(150, 20%, 25%,1);
+        color: hsl(46, 15%, 83%,1);
+       transition: 0.5s;
+    }
+    a:hover{
+        color:hsl(150, 20%, 25%,1);
     }
     @media  screen and (max-width:768px) {
         /* css footer pour forma mobile*/
