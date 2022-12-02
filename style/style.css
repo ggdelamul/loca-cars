@@ -668,6 +668,13 @@ footer>.fo>.me-fo>h3{
     text-align: center;
     
 }
+#audiOffre{
+   position: relative;
+   left: 0;
+}
+.exception{
+    padding-left: 0%;
+}
 @media  screen and (max-width:768px) {
    .container-accueil{
     display: flex;
@@ -686,4 +693,5 @@ footer>.fo>.me-fo>h3{
 .title-gamme{
     visibility: hidden;
 }
+
 }
