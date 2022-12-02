@@ -149,6 +149,10 @@ h1 {
 h1 {
   font-family: 'montserrat_alternatesbold';  
 }
+
+.text {
+    position: absolute;
+}
 /*---------------------------------------------------------CSS-NAV-------------------------------------------------------------------------------*/
 .nav-container{
    background-color: var(--bcg); 
