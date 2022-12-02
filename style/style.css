@@ -682,6 +682,7 @@ footer>.fo>.me-fo>h3{
                     display: block;
                 }
     }
+<<<<<<< HEAD
 /*-----------------Style-dispo-Mobile--------------------------------*/
 .container-disponibilite{
     background-color: var(--lightGreen);
@@ -798,4 +799,61 @@ footer>.fo>.me-fo>h3{
     .selected-date h3 {
         margin: 0 35px;
     }
+=======
+.container-accueil{
+    display: flex;
+    flex-direction: column;
+}
+.bloc1{
+    display: flex;
+    flex-direction: row;
+    background: var(--bcg);
+}
+.gamme{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.title-gamme{
+    position: absolute;
+     padding-top: 50px;
+     padding-left: 10px; 
+    font-size: var(--h1Title);
+    width: 100%;
+    color: var(--mediumGreen);
+}
+.story-container{
+    /* margin:1%; */
+    background:var(--lightGreen);
+    padding: 20px;
+    color: var(--mediumGreen);
+}
+.customers>img{
+ width:80%;
+ padding:10%;
+ border-radius:66%;
+}
+.offre-container{
+    text-align: center;
+    
+}
+@media  screen and (max-width:768px) {
+   .container-accueil{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .gamme{
+    display: flex;
+    flex-direction: column;
+}
+.bloc1{
+    display: flex;
+    flex-direction: column;
+    background: var(--bcg);
+}
+.title-gamme{
+    visibility: hidden;
+}
+>>>>>>> 42e5c6bb9b02edc1dfa480b163ffa5a0769f85a4
 }
