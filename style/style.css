@@ -304,6 +304,19 @@ footer{
 .marc>h3{
     padding-bottom: 10px;
 }
+/*css ordi infos general*/
+.container-info-general{
+    width: 100%;
+    background-color: #a3b18a;
+    justify-content: center;
+    text-align: center;
+    color:hsl(150, 20%, 25%,1) ;
+}
+
+.inf-image a>img{
+    width: 400px;
+}
+
 
 
 /*css connection  forma ordi*/
