@@ -694,7 +694,6 @@ footer>.fo>.me-fo>h3{
     background: var(--bcg);
 }
 .gamme{
-    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
