@@ -321,6 +321,59 @@ align-items: center;
     grid-template-columns: 40% 40%;
     padding-left: 10%;
 }
+/* css gamme forma ordi*/
+.container-gamme{
+    margin: 0%;
+    background-color: #dad7cd;
+    justify-content: space-around;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.card-container{
+    background-color: #a3b18a;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #3a5a40;
+    padding: 10px;
+    width:33%;
+    margin-top: 10px;
+}
+
+.card-body{
+   justify-content: center;
+   
+}
+.pictures>img{
+    
+    width: 100%;
+    justify-content: center;
+}
+.places>img{
+    width: 25px;
+    margin-right:10px;
+}
+.places{
+    display: flex;
+    padding-left: 43%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.butt>a>button{
+    border-radius: 10px;
+    color: #a3b18a;
+    background-color:hsl(123, 21%, 42%,1);
+    width: 60%;
+    margin-top: 10px;
+    justify-content: center;
+    border:hsl(123, 21%, 42%,1);
+    transition:0.5s;
+}
+.butt>a>button:hover{
+    color:hsl(46, 15%, 83%,1);
+    background-color: hsl(150, 20%, 25%,1);
+}
 
 /* css marqueinfo forma mobile*/
 
@@ -348,12 +401,34 @@ align-items: center;
         padding-left: 10px;
         padding-top: 30%;
     }
+    /*css gam forma mobil*/
+    .container-gamme{
+        display: grid;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .pictures{
+        width: 340px;
+    }
+    .card-container{
+        width: 100%;
+        margin-top: 10px;
+    }
 }
 /* css de footer*/
 footer{
-    background-color:#344e41;
+    background-color:hsl(150, 20%, 25%,1);
     padding-top: 50px;
+      color:hsl(82, 20%, 62%,1);
+      border-top-left-radius: 10% 10% ;
+      border-top-right-radius: 10% 10%;
+}
+.me-fo>a{
+    color:hsl(123, 21%, 42%,1) ;
+}
+footer>.fo>.me-fo>h3{
     
+    color:hsl(82, 20%, 62%,1);
 }
 .fo{
     
@@ -436,7 +511,7 @@ footer{
     .form-container{
     display: grid;
     padding: 5%;
-    color: #3a5a40;
+    color: hsl(131, 22%, 29%,1);
     grid-template-columns: 60% 40%;
     background-color: #dad7cd;
     
@@ -489,8 +564,12 @@ footer{
         text-align: center;
     }
     a{
-        text-decoration: none;
-        color: #dad7cd;
+        text-decoration: hsl(150, 20%, 25%,1);
+        color: hsl(46, 15%, 83%,1);
+       transition: 0.5s;
+    }
+    a:hover{
+        color:hsl(150, 20%, 25%,1);
     }
     @media  screen and (max-width:768px) {
         /* css footer pour forma mobile*/
