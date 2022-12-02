@@ -387,21 +387,24 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: var(--bcg)
+    background: var(--lightGreen)
   }
   
  
   /*  */
   .container-accueil img{
      object-fit: cover;
-     aspect-ratio: 3/2;
      width: 40%;
  }
- #minicarte{
-     aspect-ratio: 1;
-     object-fit:fill;
+ #minicarte2{
+      margin-bottom: 6%;
  }
-  
+ #cliente{
+    justify-content: center;
+    size: fill;
+    
+ }
+
   
   
   
