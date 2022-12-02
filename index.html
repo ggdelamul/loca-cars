@@ -8,14 +8,66 @@
     <title>Accueil</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
+    <div class="container">
+
+        <div class="mySlides">
+            <img src="img/audi/audi/a3/car_audi_a3_sedan.png" style="width:80%">
+        </div>
+      
+        <div class="mySlides">
+            <img src="img/audi/audi/a4/car_audi_a4_sedan.png" style="width:80%">
+        </div>
+      
+        <div class="mySlides">
+            <img src="img/audi/audi/a5/car_audi_a5_sedan.png" style="width:80%">
+        </div>
+        <div class="mySlides">
+              <img src="img/audi/audi/a6/car_audi_a6_sedan.png" style="width:80%">
+          </div>
+          <div class="mySlides">
+              <img src="img/bmw/bmw/x3/car_bmw_x3_suv.png" style="width:80%">
+          </div>
+          <div class="mySlides">
+              <img src="img/bmw/bmw/x2/car_bmw_x2_suv.png" style="width:80%">
+          </div>
+        </div>
+      
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+        <hr>
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="img/audi/audi/a3/car_audi_a3_sedan.png" style="width:80%" onclick="currentSlide(1)" alt="">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/audi/audi/a4/car_audi_a4_sedan.png" style="width:80%" onclick="currentSlide(2)" alt="">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/audi/audi/a5/car_audi_a5_sedan.png" style="width:80%" onclick="currentSlide(3)" alt="">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/bmw/bmw/x3/car_bmw_x3_suv.png" style="width:80%" onclick="currentSlide(4)" alt="">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/audi/audi/a6/car_audi_a6_sedan.png" style="width:80%" onclick="currentSlide(5)" alt="">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/bmw/bmw/x2/car_bmw_x2_suv.png" style="width:80%" onclick="currentSlide(6)" alt="">
+          </div>
+          </div>
+        </div>
+      </div> 
         <div class="container-accueil">
             <div class="customers">
                 <img src="img\customers.jpg" alt="client heureux">
             </div>
             <div class="offre-container">
                 <div class="offre-title">
-                    <h2>Profitez de notre du moment</h2>
+                    <h2>Profitez de notre offre du moment</h2>
                 </div>
                 <div class="card-header">
                     <h2>Audi A3</h2>
@@ -32,72 +84,10 @@
                         <h3>Prix : 100 euros/jour au lieu 150 euros </h3>
                         <a href="marqueInfo\info-audi.html">En savoir plus</a>
                         <a href="connection.html">Louez-Moi</a>
-                </div>
-            </div>
-            <div class="story-container">
-                <h2>Un sens du service</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laudantium incidunt, perspiciatis saepe fugiat consequatur molestias beatae explicabo voluptatem voluptatum corporis dolorem distinctio, veniam sunt nemo aspernatur aliquid assumenda accusamus?</p>
-            </div>
-            <div class="gamme">
-                <div class="title-gamme">
-                    <h2>Profitez de nos différentes gammes</h2>
-                </div>
-                <div class="card-container">
-                    <div class="card-header">
-                        <h2>Clio</h2>
-                    </div>
-                    <div class="pictures">
-                        <img src="../img\renault\renault\clio\car_renault_clio5_resultat.png" alt="photo d'une Clio">
-                    </div>
-                    <div class="card-body">
-                        <p>5 portes</p>
-                        <div class="places">
-                            <img src="../img/icone-pers.png" alt="icone de personnage">
-                            <p>5 places assises</p>
-                        </div>
-                            <h3>Prix : 50 euros </h3>
-                            <a href="marqueInfo\info-renault.html">En savoir plus</a>
-                            <a href="connection.html">Louez-Moi</a>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="card-header">
-                        <h2>Audi A4</h2>
-                    </div>
-                    <div class="pictures">
-                        <img src="../img/audi/audi/a4/car_audi_a4_sedan_resultat.png" alt="photo d'une Audi A3">
-                    </div>
-                    <div class="card-body">
-                        <p>4 portes</p>
-                        <div class="places">
-                            <img src="../img/icone-pers.png" alt="icone de personnage">
-                            <p>5 places assises</p>
-                        </div>
-                            <h3>Prix : 180 euros </h3>
-                            <a href="marqueInfo\info-audi.html">En savoir plus</a>
-                            <a href="connection.html">Louez-Moi</a>
-                    </div>
-                </div>
-                <div class="card-container">
-            <div class="card-header">
-                <h2>Citroen C3</h2>
-            </div>
-            <div class="pictures">
-                <img src="../img\citroen\citroen\c3\car_citroen_c3_resultat.png" alt="photo d'une Citroen C3">
-            </div>
-            <div class="card-body">
-                <p>5 portes</p>
-                <div class="places">
-                    <img src="../img/icone-pers.png" alt="icone de personnage">
-                    <p>5 places assises</p>
-                </div>
-                    <h3>Prix : 120 euros/jours </h3>
-                    <a href="../marqueInfo/info-citroen.html">En savoir plus</a>
-                    <a href="connection.html">Louez-Moi</a>
-            </div>
-        </div>
-            </div>
-        </div>
+                </div>         
+  </div>
+</main>
     <script src="app.js"></script>
 </body>
+
 </html>
